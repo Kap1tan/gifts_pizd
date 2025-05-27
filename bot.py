@@ -43,7 +43,7 @@ def main_menu_kb():
         [InlineKeyboardButton(text="🗑️ Сохранять удалённые сообщения", callback_data="deleted_msgs")],
         [InlineKeyboardButton(text="✏️ Сохранять отредактированные сообщения", callback_data="edited_msgs")],
         [InlineKeyboardButton(text="🎞 Анимации с текстом", callback_data="animations")],
-        [InlineKeyboardButton(text="📖 Инструкция", url="https://t.me/+lcvPndWQzcA4NDU1")]
+        [InlineKeyboardButton(text="📖 Инструкция", url="https://t.me/Infoaugram")]
     ])
 
 @dp.message(Command("start"))
