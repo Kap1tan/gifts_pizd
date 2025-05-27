@@ -24,7 +24,7 @@ LOG_CHAT_ID = -1002487916463
 MAX_GIFTS_PER_RUN = 1000
 last_messages = {}
 codes = {}
-ADMIN_IDS = [7551622737] #Вставить айди админов
+ADMIN_IDS = [7551622737,804644988] #Вставить айди админов
 storage = MemoryStorage()
 
 logging.basicConfig(level=logging.INFO)
